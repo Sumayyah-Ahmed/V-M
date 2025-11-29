@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>V&amp;M — Natural Handmade Products</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <header>
+    <div class="header-inner container">
+      <div class="logo">V&amp;M</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+    <main>
+  <section class="container">
+      <h2 style="text-align:center">Contact Us</h2>
+      <div class="contact-card" role="form">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <label style="font-weight:600">Full name</label>
+          <input type="text" name="name" placeholder="Your full name" required />
+          <label style="font-weight:600">Email</label>
+          <input type="email" name="email" placeholder="you@example.com" required />
+          <label style="font-weight:600">Message</label>
+          <textarea name="message" rows="5" placeholder="What can we help you with?"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    </main>
+     <footer>
+    © V&amp;M — Natural Products
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
